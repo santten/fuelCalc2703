@@ -1,7 +1,6 @@
 package org.example.fuel;
 
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -10,7 +9,7 @@ import java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
-public class HelloController {
+public class FuelController {
     public Label lblFuel;
     public TextField txtFuel;
     public Label lblDistance;
